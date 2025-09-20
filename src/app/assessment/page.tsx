@@ -19,7 +19,7 @@ function AssessmentPageContent() {
           <div className="md:col-span-3">
             <SepsisForm />
           </div>
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 md:sticky top-24 h-fit">
             <SepsisInfo />
           </div>
         </div>

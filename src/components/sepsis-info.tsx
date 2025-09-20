@@ -3,7 +3,7 @@ import { AlertCircle, ShieldCheck, Zap } from 'lucide-react';
 
 export default function SepsisInfo() {
   return (
-    <Card className="sticky top-24">
+    <Card>
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <AlertCircle className="h-6 w-6 text-primary" />

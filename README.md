@@ -38,13 +38,15 @@ You can deploy this application to your own Netlify account with a single click.
 
 3.  **Configure Build Settings & Environment Variables**:
     - Netlify will automatically detect that this is a Next.js project and apply the correct build settings from the included `netlify.toml` file.
-    - You will need to add your Gemini API key as an environment variable:
-        - **Variable**: `GEMINI_API_KEY`
-        - **Value**: `Your_Google_AI_Studio_API_Key`
-    - You can get a Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
+    - **Crucially, you must add your Gemini API key as an environment variable for the AI features to work.**
+        - Go to your new site's "Site configuration" -> "Build & deploy" -> "Environment".
+        - Click "Edit variables" and add a new variable:
+          - **Key**: `GEMINI_API_KEY`
+          - **Value**: `Your_Google_AI_Studio_API_Key`
+    - You can get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
 4.  **Deploy**:
-    - Click "Deploy site". Netlify will start the build process and your Sepsis Sentinel application will be live in a few minutes.
+    - Go to the "Deploys" tab and trigger a new deploy (e.g., "Deploy with latest branch commit"). Netlify will start the build process and your Sepsis Sentinel application will be live in a few minutes.
 
 ## 📄 License
 
