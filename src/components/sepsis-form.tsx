@@ -250,7 +250,7 @@ export default function SepsisForm() {
             {explanation && (
                 <div className="space-y-2">
                   <h3 className="text-lg font-semibold flex items-center gap-2"><Info className="h-5 w-5 text-accent"/>Detailed Explanation</h3>
-                  <p className="text-sm p-4 bg-accent/10 text-accent-foreground/80 rounded-md border border-accent/30">{explanation}</p>
+                  <p className="text-sm p-4 bg-secondary text-secondary-foreground rounded-md border border-accent/30">{explanation}</p>
                 </div>
             )}
 
